@@ -1,5 +1,5 @@
 {% set version="0.0.1b" %}
-{% set tag="8bc171f" %}
+{% set tag="2e951ec7863949d1622f45fee627c5a067ba919a" %}
 about:
     home: https://github.com/nh13/bfx-qc-reporter
     license: MIT
@@ -14,9 +14,8 @@ build:
   entry_points:
     - bfx-qc-reporter=bfx_qc_reporter.__main__:main
 source:
-  fn: {{ tag }}.tar.gz
-  url: https://github.com/nh13/bfx-qc-reporter/archive/{{ tag }}.tar.gz
-  sha256: 692bb802a74afa9043c968fdce648a66d05f6f07c89be15b40c4af49f394bbb1
+  git_url: https://github.com/jacarey/bfx-qc-reporter.git
+  git_rev: {{ tag }}
 requirements:
   build:
     - python
