@@ -13,7 +13,7 @@ setup(
 	packages = ["bfx_qc_reporter", "bfx_qc_reporter.util"],
 	package_dir = {"bfx_qc_reporter" : "src/python/bfx_qc_reporter", "bfx_qc_reporter.util" : "src/python/bfx_qc_reporter/util"},
 	#package_data = {"bfx_qc_reporter" : "resources/*.csv"},
-	package_data = {"bfx_qc_reporter" : "src/python/bfx_qc_reporter/resources/*.csv"},
+        package_data = {"bfx_qc_reporter" : ["src/python/bfx_qc_reporter/resources/*.csv"]},
     install_requires = [],
     classifiers = [
         "Development Status :: 3 - Alpha",
