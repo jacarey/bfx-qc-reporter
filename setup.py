@@ -21,7 +21,7 @@ setup(
     ],
     entry_points= {
         'console_scripts': [
-        'bfx-qc-reporter = bfx_qc_reporter.__main__:main'
+            'bfx-qc-reporter = bfx_qc_reporter.__main__:main'
         ]
     },
     include_package_data=True,
